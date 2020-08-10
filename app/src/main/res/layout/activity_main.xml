@@ -12,19 +12,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="32sp"
-        android:text="Goodbye World!"
+        android:text="@string/goodbye_world"
         android:textColor="@android:color/holo_red_dark"
        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/nameEditText"
-        android:hint="Enter your name"/>
+        android:hint="@string/enter_your_name"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ageEditText"
-        android:hint="How old are you?"/>
+        android:inputType="phone"
+        android:hint="@string/how_old_are_you"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,7 +33,7 @@
         android:textSize="16sp"
         android:textColor="#ff00ff"
         android:layout_marginTop="16dp"
-        android:text="Another Goodbye World"/>
+        android:text="@string/another_goodbye_world"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="250dp"
@@ -41,7 +42,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="buttonPressed"
-        android:text="Press me!"/>
+        android:background="#ff00ff"
+        android:textColor="#ffffff"
+        android:text="@string/press_me"/>
 
 
 </LinearLayout>

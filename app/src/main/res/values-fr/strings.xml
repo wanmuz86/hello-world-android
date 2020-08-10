@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hello World</string>
+    <string name="app_name">Hello Monde</string>
     <string name="goodbye_world">Goodbye World!</string>
     <string name="enter_your_name">Enter your name</string>
     <string name="how_old_are_you">How old are you?</string>
