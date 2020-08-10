@@ -18,10 +18,12 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/nameEditText"
         android:hint="Enter your name"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/ageEditText"
         android:hint="How old are you?"/>
 
     <TextView
